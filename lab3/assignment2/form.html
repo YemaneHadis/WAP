@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Retrieve Grade</title>
+</head>
+<body>
+    <form action="http://mumstudents.org/params.php" method="get">
+    <h1>Retrieve Grade</h1>
+    
+    <label for="fName" name="fName">First Name</label><br>
+    <input type="text" name="fName" pattern="[A-Z]?[a-z]*" title="Write Letter only"> <br><br>
+    <label for="lName" name="lName" >Last Name</label><br>
+    <input type="text" name="lName" pattern="[A-Z]?[a-z]*" title="Write Letter only"> <br><br>
+    <label for="sid" name="sid">Student ID</label><br>
+    <input type="text" name="sid" pattern="[0-9]+" title="Digets only please"> <br><br>
+    <label for="crs" name="crs">Cource</label><br>
+    <input type="text" name="crs" > <br><br>
+    <label for="select">Choose Assignment</label>
+    <br>    
+        <select name="select">
+            <option>Assignment 1</option>
+            <option>Assignment 2</option>
+            <option>Assignment 3</option>
+            <option>Assignment 4</option>
+        </select><br><br>
+        <fieldset style="width: 400px;">
+            <legend>Entry</legend>
+            <input type="radio" value="Feb" name="cc" >  Feb 2022
+            <input type="radio" value="may" name="cc" >   May 2022
+            <input type="radio" value="Aug" name="cc">    Aug 2022
+            <input type="radio" value="Oct" name="cc">    Oct 2022
+
+        </fieldset><br>
+        <fieldset style="width: 400px;">
+            <legend>Is that your Grade</legend>
+            <input type="checkbox" value="Yes" name="cc" >  Yes
+        </fieldset><br><br>
+         <input type="submit" value="Get Grade!">
+         
+    </form>
+
+
+</body>
+</html>

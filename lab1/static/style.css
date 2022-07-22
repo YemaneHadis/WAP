@@ -1,0 +1,40 @@
+.profile{
+    background-image: url("./Yemane.jpg");
+    background-color: green;
+    height: 100px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.avatar {
+    vertical-align:bottom;
+    margin-top: 5%;
+    margin-left: 2%;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+.content{
+    margin-top: 150px;
+}
+
+.footer{
+    height: 400px;
+    width: cover;
+    margin: 0px auto;
+    padding: 5px;
+
+}  
+
+.left-footer{
+    background-color: white;
+    height: 400px;
+    width: 48%;
+    float: left;
+}
+.right-footer{
+    background-color: white;
+    height: 400px;
+    width: 48%;
+    float: right;
+}

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="referrer" content="origin" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="./static/form.css" />
+    <title>Retrieve Grade</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>
+        nerd<span>Luv<sup>tm</sup></span>
+      </h1>
+      <p style="margin-top: 0px">Where meek geeks meet</p>
+      <fieldset>
+        <legend>New User SignUp:</legend>
+        <div class="first">
+          <form action="http://mumstudents.org/params.php">
+            <div class="left">
+              <label for="fName" name="fName">Name:</label><br />
+              <label for="gender" name="gender">Gender:</label><br />
+              <label for="Age" name="Age">Age:</label> <br />
+              <label for="person" name="pesron">Personality type</label><br />
+              <label for="fav" name="fav">Favorite OS:</label><br />
+              <label for="see" name="see">Seeking age:</label><br />
+            </div>
+
+            <div class="right">
+              <input
+                type="text"
+                name="fName"
+                pattern="[A-Za-z]{1,16}"
+                title="letters only and 16 Characters only"
+                required
+              />
+              <br />
+              <fieldset
+                style="border: 0px; padding: 0px"
+                name="gender"
+                required
+              >
+                <label><input type="radio" value="Feb" name="cc" />Male </label>
+                <label
+                  ><input type="radio" value="may" name="cc" checked />
+                  Female</label
+                >
+              </fieldset>
+              <input
+                type="text"
+                name="age"
+                placeholder="age"
+                size="6"
+                pattern="[1-9]{1,2}"
+                title="Numbers only"
+                required
+              /><br />
+              <input
+                type="text"
+                name="pers"
+                size="6"
+                pattern="[A-Z]{1,4}"
+                title="Write 4 characters only"
+              />
+              <a href="http://www.humanmetrics.com/cgi-win/JType2.asp"
+                >(Don't know your type?)<br
+              /></a>
+              <select>
+                <option>Mac OS X</option>
+                <option selected>Windows</option>
+                <option>Linux</option></select
+              ><br />
+              <input
+                type="text"
+                name="max"
+                placeholder="min"
+                size="6"
+                pattern="[0-9]{1,2}"
+                title="Numbers only"
+              />
+              to
+              <input
+                type="text"
+                name="max"
+                placeholder="max"
+                size="6"
+                pattern="[0-9]{1,2}"
+                title="Numbers only"
+              />
+            </div>
+            <div class="butten">
+              <input type="Submit" value="Sign Up" />
+            </div>
+          </form>
+        </div>
+      </fieldset>
+      <p>
+        This page is for single nerds to meet a date each other! Type in <br />
+        yout personal information and wait for the nerdly love to begin! <br />
+        Thank you for using our site. <br /><br />
+        Results and page(C) Copyright NerdLuv Inc.
+      </p>
+      <a href="../index.html"
+        ><img
+          src="/homework1/home.jpg"
+          alt="Mulie"
+          width="30"
+          class="home"
+        />Back to Front Page</a
+      ><br />
+      <div class="footer">
+        <a href="http://validator.w3.org/check/referer">
+          <img
+            src="http://mumstudents.org/cs472/2014-09/images/w3c-html.png"
+            alt="html validator"
+        /></a>
+        <a href="https://jigsaw.w3.org/css-validator/check/referer">
+          <img
+            src="https://mumstudents.org/cs472/2013-09/images/w3c-css.png"
+            alt="css-validator"
+        /></a>
+      </div>
+    </div>
+  </body>
+</html>
