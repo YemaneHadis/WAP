@@ -23,14 +23,7 @@ body{
         border: 4px solid gray;
     }
     
-    .container{
-        /* border-radius: 20px; */
-        /* margin: auto; */
-        /* margin-top: 0%; */
-        /* width: 800px; */
-        
-        
-    }
+   
     .pagenumber{
         text-align: center;
         background-color: #A2B964;
@@ -38,7 +31,7 @@ body{
         width: 800px;
     }
     .leftside{
-        display: inline-block;
+        /* display: inline-block; */
         width: 550px;
         float: left;
     }
@@ -70,7 +63,7 @@ body{
         background-image: url(/lab3/static/imgs/rbg.png);
         vertical-align: baseline;
     }
-    .lowerpart{}
+
     .leftlowerleft{
         width: 47%;
         float: left;
@@ -122,24 +115,6 @@ body{
     }
     
     
-    .uprighty{
-    
-    }
-    .tleftside{
-    
-    }
-    .upperpart{
-    
-    }
-    .lowerpart{
-    
-    }
-    .lside{
-    
-    }
-    .rside{
-    
-    }
     
     .footer{
         text-align: right;
