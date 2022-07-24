@@ -4,16 +4,16 @@ body{
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	background: rgb(229, 252, 215);
+	background: rgb(61, 138, 13);
 	
 }
 
 
 .first{
     margin-top: 10%;
-    border: 10px solid rgb(115, 150, 101);
+    border: 10px solid rgb(57, 132, 28);
     padding: 10px;
-    background-color: rgb(177, 201, 163);
+    background-color: rgb(152, 165, 145);
     border-radius: 20px;
     border-style: outset;
 }

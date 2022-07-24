@@ -1,23 +1,10 @@
 
 <!DOCTYPE html>
 <html>
-	<!--
-	CSE 190M, Summer 2012
-	This file is a tip calculator page using JavaScript.
-	-->
-<!-- <script>
-function calcTip() {
-
-// Enter your code here to make Tip Calculator work
-
-}
-
-</script> -->
 	<head>
 		<title>Tip Calculator</title>
 		<link href="tip.css" type="text/css" rel="stylesheet" />
-		<!-- <script src="tip.js" type="text/javascript"></script> -->
-        <link rel="stylesheet" href="tipcalccss.css">
+        <link rel="stylesheet" href="tipcalcstyle.css">
 	</head>
 
 
@@ -47,14 +34,12 @@ function calcTip() {
 			<p id="total">$0.00</p>
 		</div>
         <script>
-            let t=document.getElementById("total");
+        let tip=document.getElementById("total");
           function calcTip(){
-               let y= parseInt(document.getElementById("subtotal").value);
-               let x= parseInt(document.getElementById("tip").value);
-               t.innerHTML="$"+(y+(y*x)/100);
+               let subtotal= parseInt(document.getElementById("subtotal").value);
+               let tipPersent= parseInt(document.getElementById("tip").value);
+               tip.innerHTML="$"+(subtotal+(subtotal*tipPersent)/100);
             }
-            
-
         </script>
     </div>
 	</body>
