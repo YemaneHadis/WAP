@@ -1,0 +1,19 @@
+body{
+    user-select: none;
+	overflow-y: hidden;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: rgb(229, 252, 215);
+	
+}
+
+
+.first{
+    margin-top: 10%;
+    border: 10px solid rgb(115, 150, 101);
+    padding: 10px;
+    background-color: rgb(177, 201, 163);
+    border-radius: 20px;
+    border-style: outset;
+}
