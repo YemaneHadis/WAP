@@ -4,15 +4,15 @@ body{
  display: flex;
  justify-content: center;
  align-items: center;
- background: rgb(186, 194, 197);   
+ background: rgb(26, 93, 118);   
 }
 
 .first{
     width: 550px;
     margin-top: 10%;
-    border: 2px solid blue;
+    border: 2px solid rgb(16, 16, 17);
     padding: 10px;
-    background-color: aquamarine;
+    background-color: rgb(18, 179, 125);
     
 }
 .left{
