@@ -1,0 +1,21 @@
+.container{
+    width: 70%;
+    height: 700px;
+    background-color: #adcbe7;
+    margin: auto;
+    padding: auto;
+}
+.title{
+    text-align: center;
+}
+.display{
+    height: 400px;
+    border: black 2px solid;
+    background-color: white;
+}
+
+.controller{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}

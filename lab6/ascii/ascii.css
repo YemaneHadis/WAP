@@ -1,0 +1,45 @@
+body{
+
+    background-color: #CCCCFF;
+    font-family: sans-serif;
+    font-size: 14pt;
+    font-weight: bold;
+}
+
+h1{
+    font-size: 32pt;
+    font-weight: bold;
+    text-align: center;
+}
+
+textarea {
+    display: block;
+    width: 90%;
+    height: 400px;
+    font-size: 12pt;
+    font-weight: bold;
+    font-family: monospace;
+    margin: auto;
+    /* left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0; */
+    /* border-radius: 5px; */
+
+}
+
+fieldset{
+    border: 5px black solid;  
+    display: inline;
+    /* flex-direction: row; */
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+div.container {
+    display: flex;
+    /* width: 70%; */
+    margin: auto;
+    justify-content: center;
+}

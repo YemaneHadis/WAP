@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Animation</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="./ascii.css" />
+    <script src="./animations.js"></script>
+    <link rel="stylesheet" href="./ascii.css" />
+    <script src="./ascii.js"></script>
+  </head>
+  <body>
+    <h1>CSE 190 M ASCII Animation Viewer</h1>
+    <textarea name="" id="textarea" cols="80" rows="20"></textarea>
+    <div class="container">
+      <fieldset>
+        <legend>Play Controls:</legend>
+        <button type="button" id="start">Start</button>
+        <button type="button" id="stop" disabled="disabled">Stop</button>
+      </fieldset>
+      <fieldset>
+        <legend>Animation:</legend>
+        <select name="" id="animations">
+          <option value=""></option>
+          <option value="blank">Blank</option>
+          <option value="bike">Bike</option>
+          <option value="exercise">Exercise</option>
+          <option value="Juggler">Juggler</option>
+          <option value="dive">Dive</option>
+          <option value="custom">Custom</option>
+        </select>
+      </fieldset>
+      <fieldset>
+        <legend>Size:</legend>
+        <select name="size" id="size">
+          <option value="tiny">Tiny</option>
+          <option value="small">Small</option>
+          <option value="medium">Medium</option>
+          <option value="large">Large</option>
+          <option value="extra-large">Extra Large</option>
+          <option value="xxl">XXL</option>
+        </select>
+      </fieldset>
+      <fieldset>
+        <legend>Speed:</legend>
+        <input type="checkbox" name="" id="turbo" />
+        <label for="">Turbo</label>
+      </fieldset>
+    </div>
+  </body>
+</html>
